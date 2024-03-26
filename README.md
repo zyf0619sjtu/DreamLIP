@@ -39,6 +39,10 @@ Official repo for [DreamLIP: Language-Image Pre-training with Long Captions]().
 
 [//]: # (## Acknowledgement)
 
+## Experiment
+
+![timeline.jpg](figures/radar.png)
+
 ## BibTeX
 
 ```bibtex
