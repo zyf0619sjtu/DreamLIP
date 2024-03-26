@@ -23,7 +23,7 @@ Official repo for [DreamLIP: Language-Image Pre-training with Long Captions]().
 > - [ ] [![](https://img.shields.io/badge/Coyo-854?style=for-the-badge)](https://github.com/kakaobrain/coyo-dataset)
 </details>
 <details open>
-<summary><b>Supported Modules (3)</b></summary>
+<summary><b>Long Captions of MLLMs (3)</b></summary>
 
 > - [x] ![](https://img.shields.io/badge/InstructBLIP-f4d5b3?style=for-the-badge) 
 > - [x] ![](https://img.shields.io/badge/LLAVA1.5-d0e9ff?style=for-the-badge) 
