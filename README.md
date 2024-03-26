@@ -12,6 +12,7 @@ Official repo for [DreamLIP: Language-Image Pre-training with Long Captions]().
 [[Paper](https://arxiv.org/pdf/2403.17007.pdf)]
 
 ## Overview of supported long captions:
+If you want to use our generated long captions, feel free to reach out via email to zkechengzk@gmail.com.
 
 <details open>
 <summary><b>Long Captions of Supported Datasets (5)</b></summary>
@@ -44,7 +45,7 @@ Official repo for [DreamLIP: Language-Image Pre-training with Long Captions]().
 ![timeline.jpg](figures/radar.png)
 
 ## BibTeX
-
+If you find our work can help you, please consider giving a star~
 ```bibtex
 @article{DreamLIP,
   title={DreamLIP: Language-Image Pre-training with Long Captions},
