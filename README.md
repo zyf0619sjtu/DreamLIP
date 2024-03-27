@@ -20,7 +20,9 @@
 ## 💡 Highlights
 - 🔥 Exploring how language-image pre-training could benefit from long captions.
 - 🔥 Strong improvement on semantic segmentation, image-text retrieval, semantic segmentation, and image understanding in MLLM.
-![timeline.jpg](figures/radar.jpg)
+
+<img src="figures/radar.jpg" style="vertical-align: -10px; display: block; margin-left: auto; margin-right: auto;" height="300px" width="300px">
+
 - 🔥 DreamLIP trained with 30M image-text pairs achieves on par or even better performance than CLIP trained with 400M pairs.
 ![timeline.jpg](figures/moti.png)
 
