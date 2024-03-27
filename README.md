@@ -1,6 +1,5 @@
 # DreamLIP: Language-Image Pre-training with Long Captions
 
-![timeline.jpg](figures/moti.png)
 
 > **DreamLIP: Language-Image Pre-training with Long Captions** <br>
 <a href="https://zkcys001.github.io/">Kecheng Zheng</a>,</span>
@@ -19,12 +18,19 @@
 - [2024/03/27] Long captions (LLAVA1.5, InstructBLIP and shareGPT4V) of CC3M are released <a href="https://drive.google.com/file/d/19jCNWvy7kA70u-ufQtEJvbKVMG2b8MnP/view?usp=drive_link">here</a>~
 
 ## 💡 Highlights
-- 🔥 Strong improvement on
-
+- 🔥 Exploring how language-image pre-training could benefit from long captions.
+- 🔥 Strong improvement on semantic segmentation, image-text retrieval, semantic segmentation, and image understanding in MLLM.
+![timeline.jpg](figures/radar.jpg)
+- 🔥 DreamLIP trained with 30M image-text pairs achieves on par or even better performance than CLIP trained with 400M pairs.
+![timeline.jpg](figures/moti.png)
 
 ## 🎨 In-Progress
 
-
+- [X] We have released long captions of CC3M.
+- [ ] Release long captions of CC12M, YFCC15M, Laion20M, and COYO4M.
+- [ ] Upload the pretrained weight of VIT-B/16 and VIT-B/32 pretrained in CC3M, CC12M, YFCC15M, and merged-30M.
+- [ ] Release evaluation code
+- [ ] Release training code
 
 ## 🏝️ Overview of supported long captions:
 
@@ -93,9 +99,7 @@ TODO
 
 [//]: # (You can download checkpoints pre-trained )
 
-## Experiment
 
-![timeline.jpg](figures/radar.jpg)
 
 ## 📖 Citation
 
