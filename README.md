@@ -15,6 +15,7 @@
 
 ## 📰 News
 
+- [2024/07/08] DreamLIP is accepted by ECCV 2024!
 - [2024/03/27] Long captions (LLAVA1.5, InstructBLIP and shareGPT4V) of CC3M are released <a href="https://drive.google.com/file/d/19jCNWvy7kA70u-ufQtEJvbKVMG2b8MnP/view?usp=drive_link">here</a>~
 
 ## 💡 Highlights
@@ -106,10 +107,10 @@ TODO
 ## 📖 Citation
 
 ```bibtex
-@article{DreamLIP,
+@inproceedings{DreamLIP,
   title={DreamLIP: Language-Image Pre-training with Long Captions},
   author={Zheng, Kecheng and Zhang, Yifei and Wu, Wei and Lu, Fan and Ma, Shuailei and Jin, Xin and Chen, Wei and Shen, Yujun},
-  journal={arXiv:2403.17007},
+  booktitle={ECCV},
   year={2024}
 }
 ```
