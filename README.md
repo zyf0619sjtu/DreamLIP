@@ -15,6 +15,7 @@
 
 ## 📰 News
 
+- [2024/07/16] Upload the pretrained weight of VIT-B/16 pretrained in CC3M, CC12M, YFCC15M, and merged-30M (long captions of ShareGPT4V)!
 - [2024/07/08] DreamLIP is accepted by ECCV 2024!
 - [2024/03/27] Long captions (LLAVA1.5, InstructBLIP and shareGPT4V) of CC3M are released <a href="https://drive.google.com/file/d/19jCNWvy7kA70u-ufQtEJvbKVMG2b8MnP/view?usp=drive_link">here</a>~
 
@@ -29,10 +30,7 @@
 
 ## 🎨 In-Progress
 
-- [X] We have released long captions of CC3M.
-- [ ] Release long captions of CC12M, YFCC15M, Laion20M, and COYO4M.
-- [ ] Upload the pretrained weight of VIT-B/16 and VIT-B/32 pretrained in CC3M, CC12M, YFCC15M, and merged-30M.
-- [ ] Release evaluation code
+- [ ] Release long captions of CC12M, YFCC15M before 7.22.
 - [ ] Release training code
 
 ## 🏝️ Overview of supported long captions:
@@ -58,47 +56,75 @@
 [//]: # (## Acknowledgement)
 
 
-### Generated Long Captions
+#### Generated Long Captions
 
 <table><tbody>
 <!-- START TABLE -->
 <!-- TABLE HEADER -->
 <th valign="center">Dataset</th>
-<th valign="center">Raw</th>
-<th valign="center">InstructBLIP</th>
-<th valign="center">LLAVA1.5</th>
-<th valign="center">ShareGPT4V</th>
-<th valign="center">ALL</th>
+<th valign="center">InstructBLIP + LLAVA1.5 + ShareGPT4V</th>
 
 <!-- TABLE BODY -->
 <tr>
 <td align="center">CC3M</td>
-<td align="center">TODO</td>
-<td align="center">TODO</td>
-<td align="center">TODO</td>
-<td align="center">TODO</td>
 <td align="center"><a href="https://drive.google.com/file/d/19jCNWvy7kA70u-ufQtEJvbKVMG2b8MnP/view?usp=drive_link">Link</a></td>
 </tr>
 <tr>
 <td align="center">CC12M</td>
 <td align="center">TODO</td>
-<td align="center">TODO</td>
-<td align="center">TODO</td>
-<td align="center">TODO</td>
-<td align="center">TODO</td>
 </tr>
 <tr>
 <td align="center">YFCC15M</td>
-<td align="center">TODO</td>
-<td align="center">TODO</td>
-<td align="center">TODO</td>
-<td align="center">TODO</td>
 <td align="center">TODO</td>
 </tr>
 </tbody></table>
 
 ## Pretrained checkpoints
-TODO
+<table><tbody>
+<!-- START TABLE -->
+<!-- TABLE HEADER -->
+<th valign="center">Dataset</th>
+<th valign="center">Model</th>
+<th valign="center">ShareGPT4V</th>
+<th valign="center">InstructBLIP + LLAVA1.5 + ShareGPT4V</th>
+
+<!-- TABLE BODY -->
+<tr>
+<td align="center">CC3M</td>
+<td align="center">ViT-B/16</td>
+<td align="center"><a href="https://drive.google.com/file/d/1f8JdXmdGRQtCzXpEGTpE_T7bWXLMnaMj/view?usp=sharing">Link</a></td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">CC12M</td>
+<td align="center">ViT-B/16</td>
+<td align="center"><a href="https://drive.google.com/file/d/12qSRzW8q2Jg2L4y05s-AMXyCvPS7O6BK/view?usp=sharing">Link</a></td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">YFCC15M</td>
+<td align="center">ViT-B/16</td>
+<td align="center"><a href="https://drive.google.com/file/d/1CG1-XRsnff7b26WYdygNOWnhAqI5y_a7/view?usp=sharing">Link</a></td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">CC30M</td>
+<td align="center">ViT-B/16</td>
+<td align="center"><a href="https://drive.google.com/file/d/1pPVVOt_YALq_YX7x2kNEfDWSdHQ5wqew/view?usp=sharing">Link</a></td>
+<td align="center">TODO</td>
+</tr>
+</tbody></table>
+
+## 📣 Instructions
+Environment installation
+```
+pip install -r requirments.txt
+```
+
+Evaluate zero shot classification
+```
+bash eval_zs.sh
+```
 
 [//]: # (You can download checkpoints pre-trained )
 
@@ -116,4 +142,5 @@ TODO
 ```
 
 ### Acknowledgements
-We thank [InstructBLIP](https://github.com/salesforce/LAVIS), [ShareGPT4V](https://github.com/InternLM/InternLM-XComposer) and [LLAVA](https://github.com/haotian-liu/LLaVA) for the pretrained models and codes.
+This project is based on [open_clip](https://github.com/mlfoundations/open_clip/tree/main), and thanks for the nice work! 
+We also thank [InstructBLIP](https://github.com/salesforce/LAVIS), [ShareGPT4V](https://github.com/InternLM/InternLM-XComposer) and [LLAVA](https://github.com/haotian-liu/LLaVA) for the pretrained models and codes.
