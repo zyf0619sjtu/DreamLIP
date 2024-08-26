@@ -15,7 +15,8 @@
 
 ## 📰 News
 
-- [2024/07/26] Long captions (LLAVA1.5, InstructBLIP and shareGPT4V) of CC3M and CC12M are released~
+- [2024/08/26] Long captions (LLAVA1.5, InstructBLIP and shareGPT4V) of CC3M and CC12M are released in huggingface~
+- [2024/07/26] Long captions (LLAVA1.5, InstructBLIP and shareGPT4V) of CC3M and CC12M are released in google drive~
 - [2024/07/16] Upload the pretrained weight of VIT-B/16 pretrained in CC3M, CC12M, YFCC15M, and merged-30M (long captions of ShareGPT4V)!
 - [2024/07/08] DreamLIP is accepted by ECCV 2024!
 
@@ -62,16 +63,19 @@
 <!-- START TABLE -->
 <!-- TABLE HEADER -->
 <th valign="center">Raw/Long/Short Caption</th>
-<th valign="center">InstructBLIP + LLAVA1.5 + ShareGPT4V</th>
+<th valign="center">Goole Drive</th>
+<th valign="center">Huggingface Dataset</th>
 
 <!-- TABLE BODY -->
 <tr>
 <td align="center">CC3M</td>
 <td align="center"><a href="https://drive.google.com/file/d/1RPcFS8jrVolA9RzHXD581E8BxR7jYDap/view?usp=sharing">Link</a></td>
+<td align="center"><a href="https://huggingface.co/datasets/qidouxiong619/dreamlip_long_captions">Link</a></td>
 </tr>
 <tr>
 <td align="center">CC12M</td>
 <td align="center"><a href="https://drive.google.com/file/d/12iUhceznPNWd-l_bGSF5rSnzdruP4Jtr/view?usp=sharing">Link</a></td>
+<td align="center"><a href="https://huggingface.co/datasets/qidouxiong619/dreamlip_long_captions">Link</a></td>
 </tr>
 <tr>
 <td align="center">YFCC15M</td>
@@ -93,7 +97,7 @@
 <td align="center">CC3M</td>
 <td align="center">ViT-B/16</td>
 <td align="center"><a href="https://drive.google.com/file/d/1f8JdXmdGRQtCzXpEGTpE_T7bWXLMnaMj/view?usp=sharing">Link</a></td>
-<td align="center">TODO</td>
+<td align="center">Link</td>
 </tr>
 <tr>
 <td align="center">CC12M</td>
