@@ -80,7 +80,7 @@
 <tr>
 <td align="center">YFCC15M</td>
 <td align="center"><a href="https://drive.google.com/file/d/1lCgsIZSupqhO-vFnoi_ORur0xn7xfSp6/view?usp=drive_link">Link</a></td>
-<td align="center"><a href="">TODO</a></td>
+<td align="center"><a href="https://huggingface.co/datasets/qidouxiong619/dreamlip_long_captions">Link</a></td>
 </tr>
 </tbody></table>
 
