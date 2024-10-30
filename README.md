@@ -15,8 +15,8 @@
 
 ## 📰 News
 
-- [2024/08/26] Long captions (LLAVA1.5, InstructBLIP and shareGPT4V) of CC3M and CC12M are released in huggingface~
-- [2024/07/26] Long captions (LLAVA1.5, InstructBLIP and shareGPT4V) of CC3M and CC12M are released in google drive~
+[//]: # (- [2024/11/15] Long captions &#40;LLAVA1.5, InstructBLIP and shareGPT4V&#41; of Laion50M and Coyo20M that are used in [NeurIPS'24 LotLIP]&#40;https://github.com/wuw2019/LoTLIP&#41; are released in google drive~)
+- [2024/08/26] Long captions (LLAVA1.5, InstructBLIP and shareGPT4V) of CC3M/CC12M/YFCC15M are released in huggingface~
 - [2024/07/16] Upload the pretrained weight of VIT-B/16 pretrained in CC3M, CC12M, YFCC15M, and merged-30M (long captions of ShareGPT4V)!
 - [2024/07/08] DreamLIP is accepted by ECCV 2024!
 
@@ -42,8 +42,8 @@
 > - [x] [![](https://img.shields.io/badge/CC3M-red?style=for-the-badge)](https://ai.google.com/research/ConceptualCaptions/)
 > - [x] [![](https://img.shields.io/badge/CC12M-d0e9ff?style=for-the-badge)](https://github.com/google-research-datasets/conceptual-12m)
 > - [x] [![](https://img.shields.io/badge/YFCC15M-yellowgreen?style=for-the-badge)](https://github.com/Sense-GVT/DeCLIP/blob/main/docs/dataset_prepare.md)
-> - [ ] [![](https://img.shields.io/badge/Laion-grey?style=for-the-badge)](https://laion.ai/laion-5b-a-new-era-of-open-large-scale-multi-modal-datasets/)
-> - [ ] [![](https://img.shields.io/badge/Coyo-854?style=for-the-badge)](https://github.com/kakaobrain/coyo-dataset)
+> - [x] [![](https://img.shields.io/badge/Laion50M-grey?style=for-the-badge)](https://laion.ai/laion-5b-a-new-era-of-open-large-scale-multi-modal-datasets/)
+> - [x] [![](https://img.shields.io/badge/Coyo20M-854?style=for-the-badge)](https://github.com/kakaobrain/coyo-dataset)
 </details>
 <details open>
 <summary><b>Long Captions of MLLMs (3)</b></summary>
@@ -63,24 +63,28 @@
 <!-- START TABLE -->
 <!-- TABLE HEADER -->
 <th valign="center">Raw/Long/Short Caption</th>
-<th valign="center">Goole Drive</th>
 <th valign="center">Huggingface Dataset</th>
 
 <!-- TABLE BODY -->
 <tr>
 <td align="center">CC3M</td>
-<td align="center"><a href="https://drive.google.com/file/d/1RPcFS8jrVolA9RzHXD581E8BxR7jYDap/view?usp=sharing">Link</a></td>
 <td align="center"><a href="https://huggingface.co/datasets/qidouxiong619/dreamlip_long_captions">Link</a></td>
 </tr>
 <tr>
 <td align="center">CC12M</td>
-<td align="center"><a href="https://drive.google.com/file/d/12iUhceznPNWd-l_bGSF5rSnzdruP4Jtr/view?usp=sharing">Link</a></td>
 <td align="center"><a href="https://huggingface.co/datasets/qidouxiong619/dreamlip_long_captions">Link</a></td>
 </tr>
 <tr>
 <td align="center">YFCC15M</td>
-<td align="center"><a href="https://drive.google.com/file/d/1lCgsIZSupqhO-vFnoi_ORur0xn7xfSp6/view?usp=drive_link">Link</a></td>
 <td align="center"><a href="https://huggingface.co/datasets/qidouxiong619/dreamlip_long_captions">Link</a></td>
+</tr>
+<tr>
+<td align="center">Laion50M</td>
+<td align="center"><a href="">TODO</a></td>
+</tr>
+<tr>
+<td align="center">COYO20M</td>
+<td align="center"><a href="">TODO</a></td>
 </tr>
 </tbody></table>
 
