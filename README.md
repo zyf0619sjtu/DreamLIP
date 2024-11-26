@@ -16,6 +16,7 @@
 ## 📰 News
 
 [//]: # (- [2024/11/15] Long captions &#40;LLAVA1.5, InstructBLIP and shareGPT4V&#41; of Laion50M and Coyo20M that are used in [NeurIPS'24 LotLIP]&#40;https://github.com/wuw2019/LoTLIP&#41; are released in google drive~)
+- [2024/11/26] Long captions (LLAVA1.5, InstructBLIP and shareGPT4V) of COYO24M/LAION49M are released in huggingface~
 - [2024/08/26] Long captions (LLAVA1.5, InstructBLIP and shareGPT4V) of CC3M/CC12M/YFCC15M are released in huggingface~
 - [2024/07/16] Upload the pretrained weight of VIT-B/16 pretrained in CC3M, CC12M, YFCC15M, and merged-30M (long captions of ShareGPT4V)!
 - [2024/07/08] DreamLIP is accepted by ECCV 2024!
@@ -31,8 +32,8 @@
 
 ## 🎨 In-Progress
 
-- [ ] Release long captions of YFCC15M.
-- [ ] Release training code
+- [x] Release long captions of CC3M, CC12M, YFCC15M, COYO24M and LAION49M.
+- [ ] Release training code.
 
 ## 🏝️ Overview of supported long captions:
 
@@ -79,12 +80,12 @@
 <td align="center"><a href="https://huggingface.co/datasets/qidouxiong619/dreamlip_long_captions">Link</a></td>
 </tr>
 <tr>
-<td align="center">Laion50M</td>
-<td align="center"><a href="">TODO</a></td>
+<td align="center">Laion49M</td>
+<td align="center"><a href="https://huggingface.co/datasets/weiwu-ww/Recap-Long-Laion">Link</a></td>
 </tr>
 <tr>
-<td align="center">COYO20M</td>
-<td align="center"><a href="">TODO</a></td>
+<td align="center">COYO24M</td>
+<td align="center"><a href="https://huggingface.co/datasets/weiwu-ww/Recap-Long-Coyo">Link</a></td>
 </tr>
 </tbody></table>
 
@@ -102,7 +103,7 @@
 <td align="center">CC3M</td>
 <td align="center">ViT-B/16</td>
 <td align="center"><a href="https://drive.google.com/file/d/1f8JdXmdGRQtCzXpEGTpE_T7bWXLMnaMj/view?usp=sharing">Link</a></td>
-<td align="center">Link</td>
+<td align="center">TODO</td>
 </tr>
 <tr>
 <td align="center">CC12M</td>
