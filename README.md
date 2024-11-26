@@ -63,29 +63,29 @@
 <table><tbody>
 <!-- START TABLE -->
 <!-- TABLE HEADER -->
-<th valign="center">Raw/Long/Short Caption</th>
+<th valign="center">Dataset</th>
 <th valign="center">Huggingface Dataset</th>
 
 <!-- TABLE BODY -->
 <tr>
 <td align="center">CC3M</td>
-<td align="center"><a href="https://huggingface.co/datasets/qidouxiong619/dreamlip_long_captions">Link</a></td>
+<td align="center"><a href="https://huggingface.co/datasets/qidouxiong619/dreamlip_long_captions">Raw/Long/Short Caption</a></td>
 </tr>
 <tr>
 <td align="center">CC12M</td>
-<td align="center"><a href="https://huggingface.co/datasets/qidouxiong619/dreamlip_long_captions">Link</a></td>
+<td align="center"><a href="https://huggingface.co/datasets/qidouxiong619/dreamlip_long_captions">Raw/Long/Short Caption</a></td>
 </tr>
 <tr>
 <td align="center">YFCC15M</td>
-<td align="center"><a href="https://huggingface.co/datasets/qidouxiong619/dreamlip_long_captions">Link</a></td>
+<td align="center"><a href="https://huggingface.co/datasets/qidouxiong619/dreamlip_long_captions">Raw/Long/Short Caption</a></td>
 </tr>
 <tr>
 <td align="center">Laion49M</td>
-<td align="center"><a href="https://huggingface.co/datasets/weiwu-ww/Recap-Long-Laion">Link</a></td>
+<td align="center"><a href="https://huggingface.co/datasets/weiwu-ww/Recap-Long-Laion">Long Caption</a></td>
 </tr>
 <tr>
 <td align="center">COYO24M</td>
-<td align="center"><a href="https://huggingface.co/datasets/weiwu-ww/Recap-Long-Coyo">Link</a></td>
+<td align="center"><a href="https://huggingface.co/datasets/weiwu-ww/Recap-Long-Coyo">Long Caption</a></td>
 </tr>
 </tbody></table>
 
