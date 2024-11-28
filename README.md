@@ -138,9 +138,13 @@ bash eval_zs.sh
 
 [//]: # (You can download checkpoints pre-trained )
 
+## License
 
+The project is under a standard Creative Common [CC-BY-4.0 License](./LICENSE).
 
 ## 📖 Citation
+
+We open source this library to the community to facilitate the research. If you do like our work and use the codebase for your projects, please cite our work as follows.
 
 ```bibtex
 @inproceedings{DreamLIP,
@@ -154,3 +158,6 @@ bash eval_zs.sh
 ### Acknowledgements
 This project is based on [open_clip](https://github.com/mlfoundations/open_clip/tree/main), and thanks for the nice work! 
 We also thank [InstructBLIP](https://github.com/salesforce/LAVIS), [ShareGPT4V](https://github.com/InternLM/InternLM-XComposer) and [LLAVA](https://github.com/haotian-liu/LLaVA) for the pretrained models and codes.
+
+
+
